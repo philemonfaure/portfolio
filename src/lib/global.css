@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "CabinetGrotesk";
+    src:
+        url("$lib/assets/fonts/CabinetGrotesk-Variable.eot"),
+        url("$lib/assets/fonts/CabinetGrotesk-Variable.ttf") format("truetype"),
+        url("$lib/assets/fonts/CabinetGrotesk-Variable.svg") format("svg");
+}
+
+:root {
+    --black: #0d0801;
+    --darkgrey: #1c1a18;
+    --lightgrey: #a99d8c;
+    --white: #faf3e9;
+    --orange: #f1b78a;
+
+    --primary: var(--black);
+    --secondary: var(--white);
+    --tertiary: var(--orange);
+
+    background-color: var(--primary);
+}
+
+.title_font {
+    font-family: CabinetGrotesk;
+    font-weight: 100;
+    font-size: 4.2em;
+    text-decoration: none;
+    color: var(--secondary);
+
+    margin: 0;
+}
+
+.subtitle_font {
+    font-family: CabinetGrotesk;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-decoration: none;
+    color: var(--secondary);
+
+    margin: 0;
+}
+
+.body_font {
+    font-family: CabinetGrotesk;
+    font-weight: 300;
+    font-size: 1em;
+    text-decoration: none;
+    color: var(--secondary);
+
+    margin: 0;
+    max-width: 600px;
+}

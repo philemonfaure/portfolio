@@ -4,9 +4,10 @@
 
 <style>
     .button {
-        border: 0.5px solid var(--black);
-        background-color: var(--black);
-        color: var(--white);
+        border: 0.5px solid var(--secondary);
+        border-radius: 20px;
+        background-color: var(--primary);
+        color: var(--secondary);
 
         display: flex;
         flex-direction: row;
@@ -23,7 +24,7 @@
     }
 
     .button:hover {
-        background-color: var(--white);
-        color: var(--black);
+        background-color: var(--secondary);
+        color: var(--primary);
     }
 </style>
